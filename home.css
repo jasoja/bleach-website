@@ -20,6 +20,13 @@ h2 {
     font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 
 p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

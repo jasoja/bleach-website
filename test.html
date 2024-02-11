@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Test Page</title>
+  <title>Test Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="carousel.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <h1>Welcome to the Test Page</h1>
-    
-    <p>This is a test page created as part of the Bleach Bankais website project.</p>
-    
-    <p>Feel free to customize and add content here!</p>
-    
-    <!-- Link back to the homepage -->
-    <a href="index.html">Back to Home</a>
+  <script src="fade-in.js"></script>
+  <h1> </h1>  
+
+  <div class="container">
+    <div>
+      <div class="content" onclick="openPage('bankai/byakuya.html')">
+        <h2>Byakuya </h2>
+        <span>6th Division Captain
+        </span>
+      </div>
+    </div>
+
+    <div>
+      <div class="content" onclick="openPage('bankai/ichigo.html')">
+        <h2>Ichigo</h2>
+        <span>Substitute Shinigami</span>
+      </div>
+    </div>
+
+    <div>
+      <div class="content" onclick="openPage('bankai/urahara.html')">
+        <h2>Urahara</h2>
+        <span>Former 6th Division Captain</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="index.html">Back to Home</a>
+
+  <script>
+    function openPage(pageUrl) {
+      window.location.href = pageUrl;
+    }
+  </script>
 </body>
 </html>
