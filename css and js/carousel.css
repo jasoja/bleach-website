@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +15,7 @@ body {
     opacity: 0; /* Initially set opacity to 0 */
     transition: opacity 2.3s ease-in-out;
     background-repeat: no-repeat;
-    font-family: "Ubuntu Mono", monospace;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 400;
   }
 
@@ -89,4 +89,16 @@ body {
       visibility: visible;
     }
   }
+
+  .bottom-text-box {
+        position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.562);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%; /* Adjust width as needed */
+}
 }

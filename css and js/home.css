@@ -62,3 +62,16 @@ p {
     bottom: 0; /* Align the bottom of the image with the bottom of its containing element (in this case, the page) */
     right: 0; /* Align the image to the right */
 }
+
+.bottom-text-box {
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.068);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%; /* Adjust width as needed */
+}
+
