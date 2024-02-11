@@ -1,8 +1,15 @@
-body{
+body {
     background-color: #12142e;
 }
+
 h1 {
     text-align: center;
-    font-size: 100px;
-    color: #fdf8fc
+    font-size: 60px;
+    color: #fff5ff;
+    font-family: CustomFont, sans-serif; /* Use the name specified in @font-face, followed by fallback fonts */
+}
+
+@font-face {
+    font-family: CustomFont; /* Choose a name for your custom font */
+    src: url('fonts/ShipporiAntiqueB1-Regular.ttf') format('truetype'); /* Path to your font file */
 }
