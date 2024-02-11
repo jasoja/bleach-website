@@ -22,13 +22,20 @@ h2 {
 }
 
 p {
-    color: rgba(255, 255, 255, 0.486);
-    font-size: 25px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
 .text-box {
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 25px;
+    position: relative; /* or position: absolute; depending on your layout */
+    left: 40px; /* Adjust the value to move it more to the right */
+    width: 760px;
+}
+.smaller-text-box {
+    color: rgba(255, 255, 255, 0.164);
+    font-size: 20px;
     position: relative; /* or position: absolute; depending on your layout */
     left: 40px; /* Adjust the value to move it more to the right */
     height: 600px;
