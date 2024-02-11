@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background: linear-gradient(to bottom, #000000, #2e2d2d);
+    background: linear-gradient(to bottom, #202020, #111119); /* Use a linear gradient */
     background-color: #2e2d2d;
     opacity: 0; /* Initially set opacity to 0 */
     transition: opacity 2.3s ease-in-out;

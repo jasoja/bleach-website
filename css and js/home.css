@@ -1,6 +1,6 @@
 body {
     height: 100%;
-    background: linear-gradient(to bottom, #000000, #2e2d2d); /* Use a linear gradient */
+    background: linear-gradient(to bottom, #202020, #111119); /* Use a linear gradient */
     opacity: 0; /* Initially set opacity to 0 */
     transition: opacity 2.3s ease-in-out;
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@ p {
     width: 760px;
 }
 .smaller-text-box {
-    color: rgba(255, 255, 255, 0.164);
+    color: rgba(255, 255, 255, 0.342);
     font-size: 20px;
     position: relative; /* or position: absolute; depending on your layout */
     left: 40px; /* Adjust the value to move it more to the right */
@@ -69,7 +69,7 @@ p {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    color: rgba(255, 255, 255, 0.068);
+    color: rgba(255, 255, 255, 0.242);
     padding: 10px;
     border-radius: 5px;
     width: 80%; /* Adjust width as needed */
