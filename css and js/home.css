@@ -34,21 +34,15 @@ p {
 }
 
 .text-box {
-    color: rgba(255, 255, 255, 0.486);
-    font-size: 25px;
-    position: relative; /* or position: absolute; depending on your layout */
-    left: 40px; /* Adjust the value to move it more to the right */
-    width: 760px;
+    color: rgba(255, 255, 255, 0.795);
+    font-size: 30px;
+    width: 30%; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure the image behaves as a block element */
+    position: absolute; /* Position the image absolutely */
+    bottom: 5px; /* Align the bottom of the image with the bottom of its containing element (in this case, the page) */
+    left: 20px; /* Align the image to the right */
 }
-.smaller-text-box {
-    color: rgba(255, 255, 255, 0.342);
-    font-size: 20px;
-    position: relative; /* or position: absolute; depending on your layout */
-    left: 40px; /* Adjust the value to move it more to the right */
-    height: 600px;
-    width: 760px;
-}
-
 
 .fade-in {
     opacity: 1; /* Change opacity to 1 when the element has the fade-in class */
@@ -65,13 +59,25 @@ p {
 
 .bottom-text-box {
     position: fixed;
-    bottom: 20px; /* Adjust as needed */
+    bottom: 100px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.493);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%; /* Adjust width as needed */
+}
+.bottom-text-box2 {
+    font-size: 12px;
+    position: fixed;
+    bottom: 0px; /* Adjust as needed */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     color: rgba(255, 255, 255, 0.242);
-    padding: 10px;
+    padding: 1px;
     border-radius: 5px;
-    width: 80%; /* Adjust width as needed */
+    width: 20%; /* Adjust width as needed */
 }
 
