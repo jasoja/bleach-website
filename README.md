@@ -14,7 +14,7 @@ Bleach is a popular anime and manga series created by Tite Kubo. It is known for
 
 ## View Website
 
-You can view the website [here]([<website-link>](https://jasoja.github.io/bleach-website/)).
+You can view the website [here](https://jasoja.github.io/bleach-website/).
 
 
 - Explore the different Bankai showcased on the website.
