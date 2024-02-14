@@ -9,6 +9,10 @@ h1 {
     font-family: CustomFont, sans-serif; /* Use the name specified in @font-face, followed by fallback fonts */
 }
 
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
 @font-face {
     font-family: CustomFont; /* Choose a name for your custom font */
     src: url('fonts/ShipporiAntiqueB1-Regular.ttf') format('truetype'); /* Path to your font file */
